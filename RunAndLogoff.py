@@ -9,7 +9,7 @@ def main():
     #run the program and pass all parmaeters apart from the first one
     subprocess.call(program + " " + " ".join(sys.argv[2:]))
     #logoff
-    os.system("shutdown -l -f")
+    os.system("logoff")
 
 
 if __name__ == "__main__":
